@@ -39,19 +39,19 @@
 
         layer_0 {
             bindings = <
-&kp ESCAPE  &kp Q         &kp W     &kp E   &kp R  &kp T           &kp Y      &kp U                         &kp I     &kp O     &kp P      &kp BSPC
-&lt 2 TAB   &kp A         &kp S     &kp D   &kp F  &kp G           &kp H      &kp J                         &kp K     &kp L     &kp MINUS  &kp ENTER
-&kp LSHFT   &kp Z         &kp X     &kp C   &kp V  &kp B           &kp AT     &kp SPACE                     &kp N     &kp M     &kp COMMA  &kp DOT            &kp EXCL  &kp QUESTION
-&kp LCTRL   &kp LEFT_WIN  &kp LALT  &trans  &mo 3  &kp LANGUAGE_2  &kp SPACE  &tap_kp_hold_to 2 LANGUAGE_1  &kp LPAR  &kp RPAR  &kp COLON  &layer_switch 0 2
+&kp ESCAPE  &kp Q         &kp W     &kp E   &kp R  &kp T           &kp Y             &kp U                         &kp I     &kp O     &kp P      &kp BSPC
+&lt 2 TAB   &kp A         &kp S     &kp D   &kp F  &kp G           &kp H             &kp J                         &kp K     &kp L     &kp MINUS  &kp ENTER
+&kp LSHFT   &kp Z         &kp X     &kp C   &kp V  &kp B           &kp LEFT_BRACKET  &kp SPACE                     &kp N     &kp M     &kp COMMA  &kp DOT            &kp LS(NUMBER_1)  &kp LS(SLASH)
+&kp LCTRL   &kp LEFT_WIN  &kp LALT  &trans  &mo 3  &kp LANGUAGE_2  &kp SPACE         &tap_kp_hold_to 2 LANGUAGE_1  &kp LPAR  &kp RPAR  &kp APOS   &layer_switch 0 2
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT)  &kp LC(RS(TAB))  &to 0     &kp LC(TAB)   &trans            &kp LC(F4)
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)   &mkp MB1         &mkp MB3  &mkp MB2      &kp LG(TAB)       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &trans        &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT)  &kp LC(RS(TAB))  &kp LG(TAB)  &kp LC(TAB)   &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)   &mkp MB1         &mkp MB3     &mkp MB2      &mo 1             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans       &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LC(F4)       &trans       &trans        &trans            &trans
             >;
         };
 
