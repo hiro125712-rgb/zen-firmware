@@ -57,10 +57,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &kp PRINTSCREEN  &trans  &kp ASTRK                &kp N7        &kp N8     &kp N9        &kp MINUS
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp DEL          &trans  &kp BACKSPACE            &kp NUMBER_4  &kp N5     &kp NUMBER_6  &kp SLASH
-&trans  &trans  &trans          &trans        &trans     &trans           &trans  &trans                   &kp LS(TAB)   &kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans  &trans  &trans          &trans        &trans     &trans           &trans  &tap_kp_hold_to 0 SPACE  &kp N0        &kp COMMA  &kp DOT       &kp ENTER
+&trans  &kp HOME        &kp UP_ARROW    &kp END    &kp PSCRN  &trans  &trans  &kp ASTRK                &kp N7        &kp N8     &kp N9        &kp MINUS
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp DEL    &trans  &trans  &kp BACKSPACE            &kp NUMBER_4  &kp N5     &kp NUMBER_6  &kp SLASH
+&trans  &trans          &trans          &trans     &trans     &trans  &trans  &trans                   &kp LS(TAB)   &kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans  &trans          &trans          &trans     &trans     &trans  &trans  &tap_kp_hold_to 0 SPACE  &kp N0        &kp COMMA  &kp DOT       &kp ENTER
             >;
         };
 
