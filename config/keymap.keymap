@@ -48,10 +48,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT)  &kp LC(RS(TAB))  &to 0     &kp LC(TAB)   &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)   &mkp MB1         &mkp MB3  &mkp MB2      &kp LG(TAB)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &kp LG(LEFT)  &kp LG(TAB)  &kp LG(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &trans        &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(RIGHT)  &kp LC(RS(TAB))  &to 0     &kp LC(TAB)   &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)   &mkp MB1         &mkp MB3  &mkp MB2      &kp LG(TAB)       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans    &trans        &trans            &trans
             >;
         };
 
