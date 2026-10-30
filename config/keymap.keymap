@@ -55,19 +55,19 @@
 
         layer_0 {
             bindings = <
-&kp ESCAPE  &kp Q         &kp W     &kp E   &kp R  &kp T           &kp Y             &kp U      &kp I   &kp O   &kp P      &kp BSPC
-&lt 3 TAB   &kp A         &kp S     &kp D   &kp F  &kp G           &kp H             &kp J      &kp K   &kp L   &kp MINUS  &kp ENTER
-&kp LSHFT   &kp Z         &kp X     &kp C   &kp V  &kp B           &kp LEFT_BRACKET  &kp SPACE  &kp N   &kp M   &kp COMMA  &kp DOT    &kp ASTRK  &lt 3 LEFT_PARENTHESIS
-&kp LCTRL   &kp LEFT_WIN  &kp LALT  &trans  &mo 4  &kp LANGUAGE_2  &kp SPACE         &kp LANG1  &trans  &trans  &kp APOS   &mo 1
+&kp ESCAPE  &kp Q         &kp W     &kp E   &kp R  &kp T           &kp Y                 &kp U                  &kp I        &kp O           &kp P           &kp BSPC
+&lt 3 TAB   &kp A         &kp S     &kp D   &kp F  &kp G           &kp H                 &kp J                  &kp K        &kp L           &kp MINUS       &kp ENTER
+&kp LSHFT   &kp Z         &kp X     &kp C   &kp V  &kp B           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N        &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp TAB
+&kp LCTRL   &kp LEFT_WIN  &kp LALT  &trans  &mo 4  &kp LANGUAGE_2  &kp SPACE             &kp LANGUAGE_1         &lt 3 SPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &mo 2
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans          &kp LS(TAB)      &kp UP_ARROW  &kp TAB  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 2
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -82,19 +82,19 @@
 
         layer_3 {
             bindings = <
-&trans  &kp HOME        &kp UP_ARROW    &kp END    &kp PSCRN  &trans  &trans  &kp SLASH      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp DEL    &trans  &trans  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
-&trans  &trans          &trans          &trans     &trans     &trans  &trans  &trans         &trans        &kp ASTRK     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-&trans  &trans          &trans          &trans     &trans     &trans  &trans  &trans         &lt 1 N0      &double_zero  &kp DOT       &kp ENTER
+&trans  &kp HOME        &kp UP_ARROW    &kp END    &kp PSCRN  &trans  &trans  &trans         &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
+&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp DEL    &trans  &trans  &kp BACKSPACE  &kp DELETE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&trans  &trans          &trans          &trans     &trans     &trans  &trans  &trans         &trans        &kp LS(TAB)   &kp TAB       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&trans  &trans          &trans          &trans     &trans     &trans  &trans  &kp SPACE      &kp NUMBER_0  &kp NUMBER_0  &kp DOT       &kp ENTER
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7   &kp F8   &kp F9   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F4   &kp F5   &kp F6   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &kp F1   &kp F2  &kp F3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F7   &kp F8   &kp F9
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F4   &kp F5   &kp F6
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &kp F1   &kp F2  &kp F3
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F10  &kp F11  &kp F12
             >;
         };
     };
